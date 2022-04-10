@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Rubik+Moonrocks&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+ 
+.container > ul {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ text-align: center;
+ list-style: none;
+ 
+}
+.movie-info {
+   
+  width: 290px;
+  margin: 20px;
+}
+img {
+  border-radius: 5px;
+}
+.mainHeading {
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(#2193b0 ,#6dd5ed
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
